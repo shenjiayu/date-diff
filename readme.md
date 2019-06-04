@@ -6,7 +6,7 @@
 `npm test`
 
 # How to run in command line
-1. Run `npm link` to create a symbolic link to `/usr/local/bin/date-diff`
+1. Run `npm link` to create a symbolic link to `/usr/local/bin/date-diff` (this might require root permission to execute)
 2. `date-diff diff <first_date> <second_date> -f <optional_format>`
 
 # What to improve
