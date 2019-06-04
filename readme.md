@@ -7,7 +7,7 @@
 
 # How to run in command line
 1. Run `npm link` to create a symbolic link to `/usr/local/bin/date-diff` (this might require root permission to execute)
-2. `date-diff diff <first_date> <second_date> -f <optional_format>`
+2. `date-diff diff <first_date> <second_date> -f <optional_date_format>`
 
 # What to improve
 * Date formats (`src/formats.js`) can be extended to support more formats, currently only support (y-m-d, d/m/y, d-m-y)
