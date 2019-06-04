@@ -11,4 +11,4 @@
 
 # What to improve
 * Date formats (`src/formats.js`) can be extended to support more formats, currently only support (y-m-d, d/m/y, d-m-y)
-* The regular expression made for the format validation can be more precise
+* The regular expression made for the date format validation can be more precise
