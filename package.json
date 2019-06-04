@@ -1,0 +1,27 @@
+{
+  "name": "date-diff",
+  "preferGlobal": true,
+  "bin": "./commander.js",
+  "version": "1.0.0",
+  "description": "Date diff function",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenjiayu/date-diff"
+  },
+  "author": "Jiayu Shen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shenjiayu/date-diff/issues"
+  },
+  "homepage": "https://github.com/shenjiayu/date-diff#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "commander": "^2.20.0"
+  }
+}
