@@ -95,12 +95,9 @@ function SyphtDate(date, format = 'd/m/y') {
     // calculate days for the rest of the years
     for (let y = year - 1; y >= 1970; y--) {
       if (y % 4 === 0) {
-        key = 'leap';
+        days += 366;
       } else {
-        key = 'common';
-      }
-      for (let m = 12; m > 0; m--) {
-        days += daysInMonths[m][key];
+        days += 365;
       }
     }
     
