@@ -79,7 +79,7 @@ function SyphtDate(date, format = 'd/m/y') {
 
   this.getTime = function() {
     let [year, month, day] = this.date.split('-');
-    if (year < 1970) throw new Error('You cannot get a unix timestamp for a year less than 1970.');
+    if (year < 1901 || year > 2999) throw new Error('You cannot get a unix timestamp for a year less than 1901 or greater than 2999');
     let days = parseInt(day);
     let key;
     // calcualte days for the current year
@@ -93,7 +93,7 @@ function SyphtDate(date, format = 'd/m/y') {
     }
 
     // calculate days for the rest of the years
-    for (let y = year - 1; y >= 1970; y--) {
+    for (let y = year - 1; y >= 1901; y--) {
       if (y % 4 === 0) {
         days += 366;
       } else {
