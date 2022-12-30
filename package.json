@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/shenjiayu/date-diff#readme",
   "devDependencies": {
-    "mocha": "^6.1.4"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "commander": "^2.20.0"
